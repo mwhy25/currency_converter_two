@@ -12,7 +12,9 @@
   <a href="#credits">Credits</a> •
   <a href="#license">License</a>
 </p>
+<p align="center">
 <img src="https://github.com/mwhy25/currency_converter_two/raw/main/public/currency.gif?raw=true" alt="My Project GIF" style=" display: block;margin: auto;">
+</p>
 
 ## Key Features
 
