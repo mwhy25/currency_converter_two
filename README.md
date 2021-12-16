@@ -45,9 +45,9 @@ Note: If you're using Linux Bash for Windows, [see this guide](https://www.howto
 This web uses the following open source packages:
 
 - [Node.js](https://nodejs.org/)
-- [Axios] (https://axios-http.com/docs/intro)
-- [Exchange rates api] (https://exchangeratesapi.io/)
-
+- [Axios](https://axios-http.com/docs/intro)
+- [Exchange rates api](https://exchangeratesapi.io/)
+- [Youtube Tutorial](https://www.youtube.com/watch?v=8kR8ahbeftE)
 
 
 ## License
