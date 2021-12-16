@@ -1,19 +1,56 @@
-# Getting Started with Create React App
+<h1 align="center">
+  <br>
+  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.png" alt="Markdownify" width="200"></a>
+  <br>
+  Currency Converter
+  <br>
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <a href="#key-features">Key Features</a> •
+  <a href="#how-to-use">How To Use</a> •
+  <a href="#credits">Credits</a> •
+  <a href="#license">License</a>
+</p>
 
-## Library that has been used
+![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif)
 
-AXIOS
+## Key Features
 
-## API
-Get from https://exchangeratesapi.io/ Register First So you can use the API, with limited 1000Request each month, use it wisely.
+* LivePreview - Make changes, See changes
 
-## Available Scripts
+## How To Use
 
-In the project directory, you can run:
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
-### `yarn start`
+```bash
+# Clone this repository
+$ git clone https://github.com/mwhy25/currency_converter_two.git
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Go into the repository
+$ cd currency_converter_two
+
+# Install dependencies
+$ npm install
+
+# Run the app
+$ npm start
+```
+
+Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
+
+## Credits
+
+This web uses the following open source packages:
+
+- [Node.js](https://nodejs.org/)
+- [Axios] (https://axios-http.com/docs/intro)
+- [Exchange rates api] (https://exchangeratesapi.io/)
+
+
+
+## License
+
+MIT
+
+---
