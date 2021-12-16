@@ -9,16 +9,9 @@ function App() {
   const [amount2, setAmount2] = useState(1);
   const [currency1, setCurrency1] = useState("IDR");
   const [currency2, setCurrency2] = useState("USD");
-  // const [rates, setRates] = useState();
+
   const [symbols, setSymbols] = useState([]);
 
-  // useEffect(() => {
-  //   fetch(BASE_URL).then((respone) =>
-
-  //     respone.json()
-  //   )
-  //   .then((data) => setSymbols([data.base, ...data.rates]));
-  // }, []);
 
   useEffect(() => {
     axios.get(BASE_URL).then((respone) => {
