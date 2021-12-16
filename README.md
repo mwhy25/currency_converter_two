@@ -5,9 +5,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Library that has been used
 
 AXIOS
-GH-PAGES
+
 ## API
-Get from FIXER.IO Register First So you can use the API, with limited 100Request each month, use it wisely.
+Get from https://exchangeratesapi.io/ Register First So you can use the API, with limited 1000Request each month, use it wisely.
 
 ## Available Scripts
 
