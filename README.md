@@ -12,10 +12,7 @@
   <a href="#credits">Credits</a> •
   <a href="#license">License</a>
 </p>
-<img src="https://github.com/mwhy25/currency_converter_two/raw/main/public/currency.gif?raw=true" alt="My Project GIF" style=" display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;max-width: 100%;">
+<img src="https://github.com/mwhy25/currency_converter_two/raw/main/public/currency.gif?raw=true" alt="My Project GIF" style=" display: block;margin: auto;">
 
 ## Key Features
 
