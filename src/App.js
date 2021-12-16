@@ -9,9 +9,7 @@ function App() {
   const [amount2, setAmount2] = useState(1);
   const [currency1, setCurrency1] = useState("IDR");
   const [currency2, setCurrency2] = useState("USD");
-
   const [symbols, setSymbols] = useState([]);
-
 
   useEffect(() => {
     axios.get(BASE_URL).then((respone) => {
@@ -50,9 +48,7 @@ function App() {
         onAmountChange={handleAmountChange1}
         onSelectChange={handleSelectChange1}
       />
-      <h1>
-        ↑↓
-        </h1>
+      <h1>↑↓</h1>
       <CurrencyInput
         symbolsOptions={Object.keys(symbols)}
         amount={amount2}

@@ -15,7 +15,6 @@ export const CurrencyInput = (props) => {
             {option}
           </option>
         ))}
-       
       </select>
     </div>
   );
