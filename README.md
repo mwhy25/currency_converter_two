@@ -12,9 +12,9 @@
   <a href="#credits">Credits</a> •
   <a href="#license">License</a>
 </p>
-
+<p align="center">
 ![screenshot](https://github.com/mwhy25/currency_converter_two/blob/main/public/currency.gif?raw=true)
-
+</p>
 ## Key Features
 
 * LivePreview - Make changes, See changes
