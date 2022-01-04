@@ -5,8 +5,8 @@ import axios from "axios";
 function App() {
   const BASE_URL =
     "http://data.fixer.io/api/latest?access_key=b01a0d94533afe3504dc7bc2d8ea555b";
-  const [amount1, setAmount1] = useState(1);
-  const [amount2, setAmount2] = useState(1);
+  const [amount1, setAmount1] = useState(0);
+  const [amount2, setAmount2] = useState(0);
   const [currency1, setCurrency1] = useState("IDR");
   const [currency2, setCurrency2] = useState("USD");
   const [symbols, setSymbols] = useState([]);
@@ -14,6 +14,7 @@ function App() {
   useEffect(() => {
     axios.get(BASE_URL).then((respone) => {
       setSymbols(respone.data.rates);
+      console.log(symbols);
     });
   }, []);
 
